@@ -43,8 +43,18 @@ A cross-platform electronic notebook app built with Flutter.
 
 ## Project Structure
 
-- `lib/main.dart` — Main Flutter app logic and UI
-- `notes.json` — Local storage for notes (created at runtime)
+- `lib/` — main Flutter app code:
+  - `main.dart` — entry point, app startup
+  - `notes_home_page.dart` — main page with notes logic
+  - `add_note_section.dart` — widget for adding a note
+  - `view_edit_note_section.dart` — widget for viewing/editing a note
+  - `settings_page.dart` — settings page
+  - `note.dart` — note model
+  - `app_styles.dart` — app styles
+- `notes.json` — local notes storage (created at runtime)
+- `pubspec.yaml` — Flutter project dependencies and configuration
+- `pubspec.lock` — locked dependency versions
+- `analysis_options.yaml` — Dart analyzer configuration
 - `windows/` — Windows desktop runner (C++ code)
 - `web/` — Web assets and manifest
 
